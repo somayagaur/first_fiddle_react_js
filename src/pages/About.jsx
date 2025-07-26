@@ -5,7 +5,7 @@ function About() {
     <>
       <div className="container-fluid b1">
         <div className="row">
-          <div className="col-md-12 text-white fixed-top">
+          <div className="col-md-12 text-white bannerTxt">
             <h1 className="text-center imgtext">OUR STORY</h1>
           </div>
         </div>

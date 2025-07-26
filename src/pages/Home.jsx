@@ -4,24 +4,23 @@ function Home() {
   return (
     <>
       {/* slider div start */}
-      <div className="carousel slide" data-bs-ride="carousel" id="a1">
+      <div className="carousel slide" id="a1">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#a1" data-bs-slide-to="0" className="active"></button>
-          <button type="button" data-bs-target="#a1" data-bs-slide-to="1" ></button>
-          <button type="button" data-bs-target="#a1" data-bs-slide-to="2" ></button>
-
+          <button type="button" data-bs-target="#a1" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#a1" data-bs-slide-to="2"></button>
         </div>
         {/*carousel-indicators end*/}
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="https://pn-paul.netlify.app/image/slider1.jpg" className="d-block w-100" alt="..." />
-          </div>0
+          </div>
           <div className="carousel-item">
             <img src="https://pn-paul.netlify.app/image/slider22.jpg" className="d-block w-100" alt="..." />
-          </div>1
+          </div>
           <div className="carousel-item">
             <img src="https://pn-paul.netlify.app/image/slidwr33.jpg" className="d-block w-100" alt="..." />
-          </div>2
+          </div>
         </div>
         {/* carousel-inner end */}
         <button className="carousel-control-prev" type="button" data-bs-target="#a1" data-bs-slide="prev">
@@ -31,6 +30,7 @@ function Home() {
           <span className="carousel-control-next-icon"></span>
         </button>
       </div>
+
 
       <div className="container">
         <h1 className="text-center mt-3">WELCOME TO <b> FIRST FIDDLE</b></h1>

@@ -1,16 +1,17 @@
 import React from 'react'
 
+
 function Press() {
   return (
     <>
       <div className="container-fluid b4">
         <div className="row">
-          <div className="col-md-12 text-white" style={{ paddingTop: '140px' }}>
+          <div className="col-md-12 text-white bannerTxt" >
             <h1>PRESS RELEASE</h1>
           </div>
         </div>
       </div>
-      <Br /><br /><br />
+      <br/><br /><br />
       <div className="container">
         <div className="row">
           <div className="col-md-2"></div>
@@ -186,4 +187,4 @@ function Press() {
             )
 }
 
-export default Press
+export default Press;
